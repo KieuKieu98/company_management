@@ -1,0 +1,12 @@
+.alert button.close {
+  top: 25px !important;
+}
+
+.alert {
+  position: absolute;
+  width: 60%;
+  right: 20px;
+  top: 65px;
+  z-index: 1;
+  border-radius: 5px;
+}

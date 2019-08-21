@@ -1,0 +1,140 @@
+.team {
+  margin: 50px;
+}
+.plus {
+  display: flex;
+  justify-content: center;
+}
+.icon_plus {
+  font-size: 50px;
+  width: auto;
+  padding: 45px 0 45px 0;
+  color: #3c763d;
+}
+.icon-add {
+  color: #3c763d;
+  font-size: 40px;
+}
+.card-title {
+  text-align: center;
+}
+.item {
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(63, 63, 68, 0.1);
+  background-color: #ffffff;
+  margin-bottom: 30px;
+}
+.item-member {
+  height: 120px;
+  margin: 5px;
+  box-shadow: 2px 2px 2px 2px grey;
+}
+.name {
+  padding-top: 10px;
+}
+.close {
+  font-size: 40px;
+  padding-top: 10px;
+  color: darkred;
+  display: flex;
+  justify-content: center;
+}
+.search {
+  font-size: 40px;
+}
+.row_member {
+  padding: 20px 0 0 90px;
+}
+.card-img-top {
+  margin-top: 15px;
+  width: 100px;
+  height: 90px;
+  margin-bottom: 15px;
+}
+
+.result {
+  border-radius: 6px;
+  border: 1px outset;
+  margin-top: 3px;
+}
+.card-title {
+  color: black;
+}
+.delete_team {
+  position: relative;
+  top: -17px;
+  right: -2px;
+  font-size: 30px;
+  color: darkred;
+  cursor: pointer;
+}
+.team_name {
+  text-transform: uppercase;
+}
+.search-input {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.number_team {
+  text-align: center;
+}
+
+.overtime-button-overtime {
+  display: flex;
+  justify-content: center;
+}
+
+.width {
+  width: 100%;
+}
+
+.mRight-ul {
+  padding: unset;
+}
+
+.result:hover {
+  cursor: pointer;
+  background-color: #d5d5de;
+}
+
+.overtime-button {
+  border-radius: 6px;
+  background-color: #3c763d;
+}
+
+.ellip {
+  display: inline-block;
+  width: 180px;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+  color: black;
+}
+@media only screen and (max-width: 1024px) {
+  .row-team {
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .row-team {
+    margin-right: 0;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .row-team {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .name {
+    display: inline-block;
+    width: 140px;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+  }
+}
+
+.edit-width {
+  width: auto;
+}

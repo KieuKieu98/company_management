@@ -1,0 +1,13 @@
+.eye {
+  margin-top: 10px;
+}
+.form-box > form > .show-eye {
+  display: flex;
+}
+.form-box > form > div > div {
+  width: 100%;
+}
+.form-mail {
+  width: 85%;
+  margin: 0 auto;
+}

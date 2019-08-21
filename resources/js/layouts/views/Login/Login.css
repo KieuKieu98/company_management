@@ -1,0 +1,131 @@
+h1 {
+  text-align: center;
+}
+
+.form {
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+label,
+input {
+  display: block;
+  width: 100%;
+}
+
+label {
+  margin-bottom: 5px;
+  height: 22px;
+}
+
+input {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid #777;
+}
+
+input.error {
+  border-color: red;
+}
+
+.input-feedback {
+  color: rgb(235, 54, 54);
+  margin-top: -15px;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: rgb(70, 153, 179);
+  color: white;
+  border: 1px solid rgb(70, 153, 179);
+  background-color: 250ms;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #0c3d16;
+  color: rgb(70, 153, 179);
+}
+.avatar {
+  display: flex;
+  justify-content: center;
+  pointer-events: none;
+}
+.img-user {
+  height: 200px;
+}
+.forgot-pass {
+  text-align: center;
+  color: #42d0ed;
+  position: absolute;
+  padding: 10px 0 10px 0;
+}
+.login-container {
+  border: 1px solid #fbfaf0;
+  max-width: 350px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+  margin-top: 100px;
+  background-color: #f7f7f7;
+  /* box-shadow: 5px 5px 5px 5px #d0d0c8; */
+}
+small {
+  font-size: 100%;
+}
+.errorAuth {
+  margin-top: 30px;
+  margin: 0 auto;
+  width: 50%;
+  margin-right: 0;
+  padding: 15px;
+}
+.alert button.close {
+  top: 20px;
+}
+.form-box > form > div {
+  margin-bottom: 20px;
+}
+.form-control {
+  margin-bottom: 0 !important;
+}
+
+.login-form {
+  width: 100%;
+  margin: 0 auto;
+}
+.icon-eye {
+  position: absolute;
+  right: 700px;
+}
+.background {
+  width: 100%;
+  height: 939px;
+  background-image: linear-gradient(rgb(104, 145, 162), rgb(12, 97, 33));
+}
+.eye {
+  margin-top: 13px !important;
+}
+
+@media only screen and (max-width: 1440px) {
+  .icon-eye {
+    position: absolute;
+    right: 590px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .icon-eye {
+    position: absolute;
+    right: 380px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .icon-eye {
+    position: absolute;
+    right: 250px;
+  }
+}

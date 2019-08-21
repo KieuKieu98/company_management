@@ -1,0 +1,35 @@
+.overtime {
+  margin: 50px;
+}
+.add-over {
+  text-align: center;
+}
+
+.labelTable {
+  text-transform: uppercase;
+  color: #9a9a9a;
+  font-weight: 400;
+  font-size: 12px;
+  margin: 0;
+}
+
+/* avatar menu */
+.user-img {
+  width: 50px;
+  height: 50px;
+  margin-top: -10px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.btAction {
+  margin-top: 21px;
+  width: 100%;
+  background-color: rgb(42, 189, 140);
+  border-radius: 5px;
+}
+
+.btAction:hover {
+  background-color: rgb(27, 97, 73);
+  color: rgb(255, 255, 255);
+}

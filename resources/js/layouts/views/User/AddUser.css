@@ -1,0 +1,81 @@
+.addUser {
+  margin: 2% 8% 2% 8%;
+  padding: 2% 0 8% 0;
+  background-color: #d8dcd2;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+}
+.dayPickerContainer {
+  background-color: darkgreen;
+}
+.calendarContainer .heading .title {
+  background-color: darkgreen;
+}
+.gender {
+  display: flex;
+  width: 50%;
+}
+.form {
+  max-width: 80% !important;
+}
+.add {
+  width: 40%;
+  margin: 0 auto;
+  background: #11561d !important;
+  border: none;
+  color: white;
+}
+.cancle {
+  width: 40%;
+  margin: 0 auto;
+  background: #96491d;
+  border: none;
+  color: white;
+}
+.cancle:hover {
+  background-color: #8b273b;
+}
+.add:hover {
+  background-color: #a54646;
+}
+.male {
+  margin: 0 auto;
+  margin-right: 20px;
+}
+.custom {
+  display: flex;
+}
+.display {
+  display: flex;
+}
+.labelTag {
+  width: 40%;
+  margin-top: 5px;
+}
+.avatar {
+  display: flex;
+  justify-content: center;
+}
+.img-user {
+  height: 200px;
+}
+.lbGender {
+  margin-right: 10px;
+}
+.birth {
+  margin-left: -15px;
+}
+.require {
+  color: red;
+}
+.chooseFile {
+  margin: 0 auto;
+  width: 50%;
+}
+.addUser > form > div > div {
+  margin-bottom: 20px;
+}
+.form-profile {
+  width: 60%;
+  margin: 0 auto;
+}

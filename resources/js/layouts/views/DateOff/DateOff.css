@@ -1,0 +1,114 @@
+@import "https://www.w3schools.com/w3css/4/w3.css";
+.reason {
+  width: 100%;
+}
+.total-date {
+  display: flex;
+  justify-content: center;
+}
+.date-off {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  width: 32.5%;
+}
+.approve {
+  color: cornflowerblue;
+}
+.appr {
+  color: #0fb115;
+}
+.igr {
+  color: red;
+}
+.errMess {
+  color: red;
+  margin-top: 2px;
+}
+.text-tab {
+  text-align: center;
+}
+.tabApprove {
+  background: #ccc !important;
+  color: #000 !important;
+}
+.tabApprove > a:hover {
+  background-color: #4caf50 !important;
+  color: #fff !important;
+}
+
+.nav-pills > li.active > a {
+  background-color: #4caf50 !important;
+  color: #fff !important;
+}
+.nav-pills {
+  width: 98%;
+  margin: 0 auto;
+}
+.accept,
+.waiting,
+.create-do {
+  background: antiquewhite;
+  /* margin-left: -99px !important; */
+}
+
+tr > th {
+  text-align: center;
+}
+tr > td {
+  text-align: center;
+}
+
+.button-approve {
+  margin-right: 5px;
+}
+
+.hour {
+  margin-top: -20px;
+}
+.rowHour {
+  margin-top: -40px;
+}
+
+@media screen and (max-width: 1024px) {
+  .button-approve {
+    margin-right: 0px;
+    margin-bottom: 5px;
+  }
+  .classContainer {
+    width: 704px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hour {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .classContainer {
+    width: 365px;
+  }
+  .accept {
+    height: 65px;
+    padding-top: 10px;
+  }
+  .nav-pills > li + li {
+    margin-left: -3px;
+  }
+  .date-off {
+    width: 130px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .classContainer {
+    width: 320px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .classContainer {
+    width: 260px;
+  }
+}
