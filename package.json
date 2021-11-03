@@ -59,6 +59,6 @@
     "redux-thunk": "^2.3.0",
     "sweetalert-react": "^0.4.11",
     "toasted-notes": "^2.1.6",
-    "validator": "^11.0.0"
+    "validator": "^13.7.0"
   }
 }
